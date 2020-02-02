@@ -50,5 +50,5 @@
         > git checkout working-branch # 작업브랜치로 체크아웃
         > git merge master # 작업브랜치에 master 신규 내용머지
         > git checkout release/20200101 # 릴리즈 브랜치로 체크아웃
-        >d git merge working-branch # 릴리즈 브랜치에 작업 브랜치 머지
+        > git merge working-branch # 릴리즈 브랜치에 작업 브랜치 머지
         ```
