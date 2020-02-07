@@ -141,7 +141,7 @@
         * ex) 안드로이드, 하둡
     * GNU GPL(General Public License)
         * 자유소프트웨어재단(FSF)에서 만든 라이센스다. GNU에서 배포하는 SW(emacs, GDB, GCC)등에 적용하기 위하여 리처드 스톨만이 만든 라이센스이다.
-        * 가장 강력한 제약조건을 포함하는 카피레이프 조항을 담고있다.
+        * 가장 강력한 제약조건을 포함하는 카피레프트 조항을 담고있다.
         * GPL 프로그램은 어떤 목적과 형태로든 사용과 변경이 가능하지만 배포하는 경우 무조건 동일한 라이센스인 GPL로 공개해야한다
         * ex) Firefox, Linux kernel, Git, MariaDB, Wordpress
     * GNU Affero GPL(AGPL)
@@ -151,8 +151,32 @@
         * 서버에서 사용자들과 통신하면 실행중인 소스코드를 다운로드 할 수 있도록 공개해야한다는 조항을 담고있다
         * ex) MongoDB
     * GNU Lesser GPL(LGPL)
-        * FSF 강력한 철학을 담긴 GPL의 카피레이프 조항을 보완하기 위한 라이센스이다.
+        * FSF 강력한 철학을 담긴 GPL의 카피레프트 조항을 보완하기 위한 라이센스이다.
         * GPL SW를 사용만 하여도 공개해야하기 때문에 상용으로 사용하기엔 부담이 있다. 
         * 초기에는 단순한 라이브러리, 모듈을 허용한 라이센스여서 Library GPL이었지만, 이후 Lesser GPL로 변경됐다
-        * Firefox
+        * ex) Firefox
+    * MIT
+        * MIT 라이센스는 MIT SW개발자들을 돕기 위하여 개발한 라이센스이다.
+        * 라이센스와 저작권 관련 명시만 지켜주면되는 가장 느슨한 조건을 가진 라이센스이기 때문에 인기가 많다
+        * 부트스트랩, Angular, Backbone, jQuery
+    * Artistic
+        * Pearl 기능을 위하여 만든 라이센스이다
+        * 시적허용(틀린 표현이라도 시적인 효과를 위하여 허용한다)를 참조하여 만들어진 라이센스
+        * ex) NPM(Node Package Manager)
+    * Eclipse
+        * 이클립스에서 비지니스 환경에 적합하게 만든 기업을 위한 라이센스
+        * GPL의 카피레프트보다 완화된 라이센스
+        * ex) Eclipse
+    * BSD(Berkely Software Distribution)
+        * UC Berkely에서 배포하는 SW 라이센스이다.
+        * BSD 자체가 공공기관에서 만들어서 공공의 몫으로 돌리자는 의미가 강하다
+        * 라이센스 자체에는 아무런 제한 없이 누구나 자신의 용도로 사용가능하다
+        * 라이센스 및 저작권 표시 이외엔 제약이 없는 자유로운 라이센스이다
+        * ex) Nginx
+    * MPL(Mozila Public License)
+        * 모질라재단에서 작성한 라이센스이다
+        * 수정한 코드는 MPL로 공개하고 원작자에게 알려야한다
+        * 소스코드는 공개의무가 있지만, 별도의 코드와 실행파일은 독점라이센스를 가질 수 있다
+        * ex) Firefox, Thunderbird
+
 
